@@ -1,0 +1,22 @@
+:root {
+    --background-principal: #252323;
+    --font-menu-nav: "Montserrat", sans-serif;
+    --font-titulo-descricao: "Cardo", serif;
+
+    --verde-claro: #89D2DC;
+    --roxo: #6564DB;
+    --cinza-escuro: #5B5750;
+}
+
+.cardo-regular {
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}

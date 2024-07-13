@@ -1,0 +1,11 @@
+h1, h2, h3, h4 {
+    font-family: var(--font-titulo-descricao);
+}
+
+nav {
+    font-family: var(--font-menu-nav);
+}
+
+a {
+    text-decoration: none;
+}
