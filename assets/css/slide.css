@@ -32,7 +32,7 @@
 .manual-navigation {
     position: absolute;
     width: 800px;
-    margin-top: -40px;
+    margin-top: -30px;
     display: flex;
     justify-content: center;
 }
@@ -80,7 +80,7 @@
 .navigation-auto {
     position: absolute;
     width: 800px;
-    margin-top: 460px;
+    margin-top: 470px;
     display: flex;
     justify-content: center;
 }

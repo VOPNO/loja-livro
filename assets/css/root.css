@@ -3,9 +3,8 @@
     --font-menu-nav: "Montserrat", sans-serif;
     --font-titulo-descricao: "Cardo", serif;
 
-    --verde-claro: #89D2DC;
-    --roxo: #6564DB;
-    --cinza-escuro: #5B5750;
+    --tom-escuro: #212529;
+    --tom-claro: #f8f9fa;
 }
 
 .cardo-regular {

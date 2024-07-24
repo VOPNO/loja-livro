@@ -1,0 +1,23 @@
+.dropdown-menu {
+    position: absolute;
+    top: 5rem;
+    display: none;
+    padding: 1.5rem;
+    height: 13rem;
+    border-radius: 10px;
+}
+
+.dropdown-menu h3 a {
+    display: block;
+}
+
+.dropdown-menu h3 a:hover {
+    text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

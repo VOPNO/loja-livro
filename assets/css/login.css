@@ -1,0 +1,57 @@
+input {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input:active {
+    border: none ;
+}
+
+button {
+    border: 0.5px solid rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+form {
+    margin: 10% auto;
+}
+
+form div {
+    border: 1px solid rgb(140, 140, 140);
+    border-radius: 10px;
+}
+
+form div:not(:first-child) {
+    margin-top: 1rem;
+}
+
+form div:last-child {
+    border: none;
+    position: absolute;
+    top: 26rem;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 17%;
+}
+
+form div:last-child p {
+    cursor: pointer;
+}
+
+form div:last-child p:hover {
+    text-decoration: underline;
+}
+
+form div i {
+    padding: 5px;
+}
+
+.outro-lado{
+    margin-left: 25%;
+}
+
+.off {
+    display: none;
+}

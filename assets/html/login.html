@@ -4,47 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Livros.com: Login</title>
-    <link rel="stylesheet" href="/assets/css/root.css">
+
+    <link rel="stylesheet" href="/assets/src/css/output.css">
     <link rel="stylesheet" href="/assets/css/login.css">
+    <link rel="stylesheet" href="/assets/css/root.css">
+    
 </head>
-<body>
-    <div class="cont-all">
-        <div class="cont-login">
-            <form>
+<body class="bg-gray-300">
+    <div class="cont-al bg-white w-6/12 h-96 rounded-xl shadow mx-auto mt-28">
+        <div class="cont-login grid grid-cols-2">
+            <div class="tampa w-3/12 h-96 rounded-xl z-10 absolute ease-in duration-1000 overflow-hidden bg-zinc-950" id="tampa">
+                <div class="parte-sing" id="divSing">
+                    <h1 class="text-2xl text-white font-sans text-center mt-7">
+                        Seja bem-vindo!
+                    </h1>
+                    <p class="text-gray-400  text-center mt-5 p-3">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus, nam totam? Exercitationem voluptas dolorem, at unde facere deserunt sit qui nesciunt laboriosam nihil odit molestias commodi maiores reiciendis obcaecati necessitatibus!
+                    </p>
+                </div>
+                <div class="parte-login off" id="divLogin">
+                    <h1 class="text-2xl text-white font-sans text-center mt-7">
+                        Bem vindo de volta!
+                    </h1>
+                    <p class="text-gray-400  text-center mt-5 p-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem fuga corporis sapiente quos accusantium enim aspernatur iusto qui deserunt illum expedita dolore voluptatum at a, ab possimus ratione quam quo.
+                    </p>
+                </div>
+            </div>
+            <form id="formLogin">
+  
                 <div>
                     <label for="login">
                         <i class="fa-solid fa-circle-user"></i>
                     </label>
-                    <input type="text" id="login" placeholder="Email">
+                    <input type="email" id="login" placeholder="Email" required>
                 </div>
 
                 <div>
                     <label for="senha"><i class="fa-solid fa-lock"></i></label>
-                    <input type="password" id="senha" placeholder="Password">
+                    <input type="password" id="senha" placeholder="Password" required >
                 </div>
-                <button type="submit">Login</button>
+                <div>
+                    <button type="submit" class="bg-zinc-950 text-white active:bg-zinc-900 hover:bg-zinc-800">Login</button>
+                    <p id="singButton">Registre-se</p>
+                </div>
             </form>
-            <form>
+            <form id="formSing">
+
                 <div>
                     <label for="name"><i class="fa-solid fa-user"></i></label>
-                    <input type="text" id="name" placeholder="Username">
+                    <input type="text" id="name" placeholder="Username" required>
                 </div>
 
                 <div>
                     <label for="email"><i class="fa-solid fa-circle-user"></i></label>
-                    <input type="email" id="email" placeholder="Email">
+                    <input type="email" id="email" placeholder="Email" required >
                 </div>
 
                 <div>
                     <label for="senhaSing"><i class="fa-solid fa-lock"></i></label>
-                    <input type="password" id="senhaSing" placeholder="Password">
+                    <input type="password" id="senhaSing" placeholder="Password" required>
                 </div>
 
-                <button type="submit">Registrar</button>
+                <div>
+                    <button type="submit" class="bg-zinc-950 text-white active:bg-zinc-900 hover:bg-zinc-800">Registrar</button>
+                    <p id="loginButton">Login</p>
+                </div>
             </form>
         </div>
     </div>
     <script src="https://kit.fontawesome.com/3c58de483e.js" crossorigin="anonymous"></script>
-    <script src="/assets/js/categorias.js"></script>
+    <script src="/assets/js/tampa.js"></script>
 </body>
 </html>
